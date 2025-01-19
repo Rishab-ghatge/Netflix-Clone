@@ -61,11 +61,8 @@ nav img{
  .f button{
   width:20vw;
  }
- .main{
-  background-size: cover;
- }
-
 }
+
 
 
 nav button{
@@ -177,24 +174,27 @@ input{
   align-items: center;
   gap: 10px;
 }
-@media screen  and (max-width:880px){
-  .hero-buttons input{
+@media screen  and (max-width:700px){
+  /* .hero-buttons input{
     padding: 13px 30px 10px 10px;
-  }
+  } */
   .hero-buttons{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
   }
-  .hero-buttons button{
+  /* .hero-buttons button{
     padding: 8px 8px 8px 4px;
-  }
+  } */
 }
-@media screen  and (max-width:409px){
+@media screen  and (max-width:397px){
   .hero-buttons button{
     padding: 9px 4px 9px 4px;
   }
-  .hero-buttons input{
+  /* .hero-buttons input{
     padding: 13px 20px 10px 10px;
+  } */
+  .hero-buttons input{
+    padding: 13px 30px 10px 10px;
   }
 }
 .first{
@@ -264,6 +264,14 @@ section.first > div{
   background-color: black;
   color: white;
   padding: 34px;
+}
+@media screen and (max-width:720px) {
+  .faq h2{
+    font-size: 25px;
+  }
+  .faq-box span{
+    font-size: 20px;
+  }
 }
 .faq-box{
   display: flex;
